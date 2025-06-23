@@ -107,5 +107,23 @@ You are looking for a way to **export elk logs in json** ?
     [2025-06-23 15:09:02] Fichiers de sortie dans : ./exports
     [2025-06-23 15:09:02] Taille totale des exports : 446M
     ```
-    
+
+### 4° Statistics
+- Count of indexes : 6
+- Errors : 1
+- Logs : ~13M
+- Output :
+  ```
+  ls -la exports
+  total 456116
+  drwxr-xr-x 2 arthubhub arthubhub      4096 Jun 23 15:09 .
+  drwxr-xr-x 4 arthubhub arthubhub      4096 Jun 23 13:44 ..
+  -rw-r--r-- 1 arthubhub arthubhub    346657 Jun 23 13:44 .ds-logs-generic-default-2025.06.13-000001.json.gz
+  -rw-r--r-- 1 arthubhub arthubhub  47820077 Jun 23 13:52 .ds-logs-netflow-default-2025.06.13-000001.json.gz
+  -rw-r--r-- 1 arthubhub arthubhub     16784 Jun 23 15:09 .ds-logs-radius-default-2025.06.13-000001.json.gz
+  -rw-r--r-- 1 arthubhub arthubhub 183610222 Jun 23 14:24 .ds-logs-router_netflow-default-2025.06.13-000001.json.gz
+  -rw-r--r-- 1 arthubhub arthubhub 235246670 Jun 23 15:06 .ds-logs-router_syslog-default-2025.06.13-000001.json.gz
+  ```
+- Duration :  `15:09:02 - 13:44:04 = 01:24:58`
+- Speed : `1 550 000` logs per minute
   
