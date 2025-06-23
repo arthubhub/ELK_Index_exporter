@@ -1,0 +1,6 @@
+.ds-logs-generic-default-2025.06.13-000001
+.ds-logs-netflow-default-2025.06.13-000001
+.ds-logs-router_netflow-default-2025.06.13-000001
+.ds-logs-router_syslog-default-2025.06.13-000001
+.ds-logs-radius-default-2025.06.13-000001
+.ds-filebeat-8.13.0-2025.06.13-000001
