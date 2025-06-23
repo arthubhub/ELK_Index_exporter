@@ -125,5 +125,5 @@ You are looking for a way to **export elk logs in json** ?
   -rw-r--r-- 1 arthubhub arthubhub 235246670 Jun 23 15:06 .ds-logs-router_syslog-default-2025.06.13-000001.json.gz
   ```
 - Duration :  `15:09:02 - 13:44:04 = 01:24:58`
-- Speed : `1 550 000` logs per minute
+- Speed : `155 000` logs per minute
   
